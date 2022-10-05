@@ -26,7 +26,7 @@ if (navigator.geolocation) {
         map.on('click', onMapClick);
       },
       (positionError) => {
-        console.log(positionError.message);
+        alert(positionError.message);
       })
 }
 
